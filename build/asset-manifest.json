@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/films/static/css/main.91ba56cc.css",
+    "main.js": "/films/static/js/main.a0843574.js",
+    "static/js/787.546e8bb7.chunk.js": "/films/static/js/787.546e8bb7.chunk.js",
+    "static/media/tatevik.jpeg": "/films/static/media/tatevik.ace5ff13d13badc6d7ff.jpeg",
+    "index.html": "/films/index.html",
+    "main.91ba56cc.css.map": "/films/static/css/main.91ba56cc.css.map",
+    "main.a0843574.js.map": "/films/static/js/main.a0843574.js.map",
+    "787.546e8bb7.chunk.js.map": "/films/static/js/787.546e8bb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91ba56cc.css",
+    "static/js/main.a0843574.js"
+  ]
+}

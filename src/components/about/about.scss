@@ -1,0 +1,17 @@
+.introduction{
+    font-size: 19px;
+    font-family:'Times New Roman';
+    padding:20px;
+}
+.picture{
+    margin: 13px;
+    background-repeat: no-repeat;
+    img{
+        height: 265px;
+    }
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+}

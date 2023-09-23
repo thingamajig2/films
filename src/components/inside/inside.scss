@@ -1,0 +1,30 @@
+.filmBackground{
+    width: 100%;
+    height: calc(100vh - 82px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+}
+.insideFilm{
+    gap: 10%;
+    height: calc(100vh - 82px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+    .filmPoster{
+        width: 30%;
+        background-repeat: no-repeat;
+        height: 470px;
+
+    }
+    .description{
+        width: 40%;
+        font-family: Copperplate;
+        color: black;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }

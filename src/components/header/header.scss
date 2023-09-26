@@ -45,8 +45,7 @@ $background-color_3: #222;
 		flex-direction: column;
 		gap: 6px;
 		border-radius: 10px;
-	}
-	.categories{
+		z-index: 100
 	}
 }
 .menu-button-container {

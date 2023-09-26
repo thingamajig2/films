@@ -1,5 +1,5 @@
 export async function fetchFilms({pageNumber,category}) {
-  const data = await fetch(`https://api.themoviedb.org/3/movie/${category}?api_key=5503f91f557746ba3ac3cbbfc5cba872&language=en-US&page=${pageNumber || "1"}`);
+  const data = await fetch(`https://api.themoviedb.org/3/movie/${category === 'films' ? 'popular' : category}?api_key=5503f91f557746ba3ac3cbbfc5cba872&language=en-US&page=${pageNumber || "1"}`);
   const result = await data.json();
   return result.results;
 }

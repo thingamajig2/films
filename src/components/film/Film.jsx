@@ -4,7 +4,7 @@ import { selectFilm } from '../../features/counter/counterSlice';
 import './film.scss';
 
 const Film = ({movie}) =>{
-
+// change /films to /popular link
     return(
         <div className="film" key={movie.id}>
             <Link to={`${movie.id}`}>

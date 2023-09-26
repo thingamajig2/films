@@ -37,7 +37,7 @@ export function Counter() {
       console.log(value,currentPage)
       dispatch(searchFilm({value:value, pageNumber:currentPage})); 
     }else{
-      dispatch(getFilms({pageNumber:currentPage,category: category}));
+      dispatch(getFilms({pageNumber:currentPage,category: category==='films' ? 'popular' : category}));
     }
   },[value,category,currentPage])
 
